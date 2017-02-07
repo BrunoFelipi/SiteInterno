@@ -240,7 +240,7 @@ body {
   padding-right: 50px;
 }
 body.page-container-boxed {
-  background: url("../img/backgrounds/wall_1.jpg") left top no-repeat fixed;
+  background: url("../img/backgrounds/wall_2_orange.jpg") left top no-repeat fixed;
   padding: 20px 0px;
 }
 body.page-container-boxed .page-container {
@@ -372,7 +372,7 @@ body.page-container-boxed .page-container {
   content: "\f147";
 }
 .x-navigation li.active > a {
-  background: #1caf9a;
+  background: #ff6600;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -925,7 +925,7 @@ body.page-container-boxed .page-container {
 }
 .x-navigation > li.xn-profile .profile-mini img {
   width: 36px;
-  border: 2px solid #FFF;
+  border: 2px solid #ff6600;
   -moz-border-radius: 20%;
   -webkit-border-radius: 20%;
   border-radius: 20%;
@@ -1069,7 +1069,7 @@ body.page-container-boxed .page-container {
 }
 .profile .profile-image img {
   width: 100px;
-  border: 3px solid #FFF;
+  border: 3px solid #ff6600;
   -moz-border-radius: 20%;
   -webkit-border-radius: 20%;
   border-radius: 20%;
@@ -3961,7 +3961,7 @@ td.dataTables_empty {
   color: #FFF;
 }
 .login-container.lightmode {
-  background: url("../img/backgrounds/wall_1.jpg") left top no-repeat;
+  background: url("../img/backgrounds/wall_2_orange.jpg") left top no-repeat;
 }
 .login-container.lightmode .login-box .login-body {
   background: rgba(255, 255, 255, 0.2);
@@ -4981,7 +4981,7 @@ td.dataTables_empty {
 .to-top {
   width: 40px;
   height: 40px;
-  background: #f5f5f5;
+  background: #33414e;
   line-height: 35px;
   text-align: center;
   border: 1px solid #FFF;
@@ -4989,16 +4989,15 @@ td.dataTables_empty {
   -webkit-border-radius: 0px;
   border-radius: 0px;
   font-size: 23px;
-  color: #CCC;
+  color: #FFF;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
-.to-top:hover {
-  border-color: #33414e;
-  color: #333;
+.to-top:hover {  
+  color: #ff6600;
 }
 /* end To top */
 /* iCheck plugin Minimal skin, black
