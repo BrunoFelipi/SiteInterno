@@ -1,11 +1,11 @@
 app.config(function($routeProvider){
     $routeProvider
-    .when('/blank', {
-        templateUrl: 'blank.html'
+    .when('/', {
+        templateUrl: 'views/inicio.html'
     })
-	.when('/', {
-        templateUrl: 'admin.html'
-    })
+	.when('/inicio', {
+        templateUrl: 'views/inicio.html'
+    })	
 	.when('/inbox', {
         templateUrl: 'views/mensagens/Inbox.html'
     })
@@ -14,5 +14,8 @@ app.config(function($routeProvider){
     })
 	.when('/novamensagem', {
         templateUrl: 'views/mensagens/NovaMensagem.html'
+    })
+	.when('/agenda', {
+        templateUrl: 'views/agenda/agenda.html'
     })
 });
